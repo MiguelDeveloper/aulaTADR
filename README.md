@@ -1,7 +1,9 @@
 # aulaTADR
 
 configure terminal
+
 vlan 2
+
 name aluno
 exit
 vlan 3
