@@ -5,16 +5,27 @@ configure terminal
 vlan 2
 
 name aluno
+
 exit
+
 vlan 3
+
 name professores
+
 exit
+
 vlan 10
+
 name convidado
+
 exit
+
 interface range fastEthernet 0/5-8
+
 switchport access vlan 2
+
 exit
+
 interface range fastEthernet 0/9-12
 switchport access vlan 3
 exit
